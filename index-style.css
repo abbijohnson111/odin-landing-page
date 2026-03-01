@@ -16,7 +16,7 @@ p {
 /** top header **/
 
 .mainheader{
-    background: #1f2937;
+    background: #F8C8DC;
     padding-top: 18px;
 }
 
@@ -66,7 +66,7 @@ p {
 
 .secondarytext{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     padding-bottom: 10px;
     font-weight: 300;
 }
@@ -77,10 +77,11 @@ p {
 }
 
 .heroimage {
-    width: 520px;
+    width: 300px;
     height: 230px;
-    border: none;
+    border: dashed 2px hotpink;
     border-radius: 0%;
+    margin-right: 100px;
 }
 
 /** body **/
@@ -100,7 +101,7 @@ p {
     justify-content: center;
     gap: 65px;
     padding: 50px 100px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .infoimage {
@@ -115,7 +116,7 @@ p {
 /** quote **/
 
 .mainquote{
-    background: #E5E7EB;
+    background: #FFECF2;
 }
 
 .quote{
@@ -128,6 +129,7 @@ p {
     align-items: center;
     padding: 0px 300px;
     padding-top: 120px;
+    padding-bottom: 5px;
 }
 
 .quoteperson {
@@ -144,7 +146,7 @@ p {
 }
 
 .callbox {
-    background: #3882f6;
+    background: hotpink;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -176,8 +178,8 @@ p {
 /** footer **/
 
 .footer {
-    background: #1f2937;
-    color: #E5E7EB;
+    background: #F8C8DC;
+    color: #F9FAF8;
     font-weight: 300;
     font-size: 17px;
     padding: 40px 0px;
@@ -190,7 +192,7 @@ p {
 /** extras**/
 
 button {
-    background: #3882f6;
+    background: hotpink;
     color: #F9FAF8;
     cursor: pointer;
     border-radius: 6px;
@@ -211,8 +213,8 @@ a {
 
 img {
     width: 160px;
-    height: 160px;
-    border: solid 4px #3882f6;
+    height: auto;
+    border: solid 4px hotpink;
     border-radius: 16px;
     margin-bottom: 9px;
 }
