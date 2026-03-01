@@ -133,20 +133,44 @@ p {
 .quoteperson {
     font-weight: 900;
     font-size: 20px;
-    padding-bottom: 85px;
+    padding-bottom: 95px;
     padding-left: 870px;
 }
 
 /** call to action (ad?) **/
 
 .maincall{
-    display: flex;
+    padding: 100px 200px;
+}
+
+.callbox {
     background: #3882f6;
-    border-radius: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 70px;
+}
+
+.calltext {
+    color: white;
+    padding-left: 50px;
+}
+
+.call {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.callbody {
+    font-weight: 300;
 }
 
 .callbutton {
-    border: solid 3px white;
+    border: solid 2px white;
+    border-radius: 8px;
+    margin-right: 50px;
 }
 
 /** footer **/
@@ -154,8 +178,9 @@ p {
 .footer {
     background: #1f2937;
     color: #E5E7EB;
-    padding: auto;
-    margin: auto;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 40px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +196,8 @@ button {
     border-radius: 6px;
     padding: 10px 30px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 19px;
+    border: none;
 }
 
 /** a = links **/
