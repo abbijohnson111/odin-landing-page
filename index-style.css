@@ -85,24 +85,36 @@ p {
 
 /** body **/
 
-.mainbody {
-    display: flex;
-    padding: 140px 0px;
-}
-
 .info{
-    font-size: 36px;
+    font-size: 33px;
     color: #1f2937;
     font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    padding: 50px 100px;
+    padding-bottom: 100px;
+}
+
+.infoimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+    margin: 0;
 }
 
 /** quote **/
 
 .mainquote{
-    display: flex;
     background: #E5E7EB;
 }
 
@@ -111,12 +123,30 @@ p {
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 300px;
+    padding-top: 120px;
+}
+
+.quoteperson {
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 85px;
+    padding-left: 870px;
 }
 
 /** call to action (ad?) **/
 
 .maincall{
     display: flex;
+    background: #3882f6;
+    border-radius: 50px;
+}
+
+.callbutton {
+    border: solid 3px white;
 }
 
 /** footer **/
@@ -139,7 +169,6 @@ button {
     color: #F9FAF8;
     cursor: pointer;
     border-radius: 6px;
-    border: none;
     padding: 10px 30px;
     font-weight: bold;
     font-size: 15px;
@@ -155,8 +184,9 @@ a {
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    border: solid 3px #3882f6;
+    width: 160px;
+    height: 160px;
+    border: solid 4px #3882f6;
     border-radius: 16px;
+    margin-bottom: 9px;
 }
